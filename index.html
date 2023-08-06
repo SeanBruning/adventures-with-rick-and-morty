@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <h1 class="text-info text-center mt-4 font-monospace text-2xl animate__animated animate__zoomInLeft">Rick and Morty Universe Explorer: An API-Powered Adventure!</h1>
+    <div class="text-info-emphasis text-center font-monospace">
+        <medium>Use the API to explore the Rick and Morty universe. Choose the Character Id numbers between 1 and 826.</medium> 
+    </div>
+    <div><br>
+        <div class="text-info-emphasis text-center font-monospace">
+        <label for="character-id">Character ID:</label>
+        <input type="text" id="character-id">
+        <button onclick="searchCharacter()">Search</button>
+        <div class="text-center">
+    <div id="character-info" style="width: 18rem;"></div>
+</div>
+</div>
+</body>
+</html>
